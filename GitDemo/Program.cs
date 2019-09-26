@@ -10,7 +10,13 @@ namespace GitDemo
     {
         static void Main(string[] args)
         {
+            Print_Test();
             Print_Test3();
+        }
+
+        public static void Print_Test()
+        {
+            Console.WriteLine("Print_Test");
         }
 
         public static void Print_Test3()
