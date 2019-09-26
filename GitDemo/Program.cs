@@ -10,12 +10,12 @@ namespace GitDemo
     {
         static void Main(string[] args)
         {
-            Print_Monika();
+            Print_Test();
         }
 
-        public static void Print_Monika()
+        public static void Print_Test()
         {
-            Console.WriteLine("Monika Dimovska");
+            Console.WriteLine("Print_Test");
         }
     }
 }
